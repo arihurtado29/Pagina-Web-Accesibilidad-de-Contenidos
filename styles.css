@@ -47,13 +47,18 @@ body {
 }
 
 .nav-links a:focus {
-    outline: 4px solid #111;
-    outline-offset: 4px;
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
 }
 
-.nav-links a:hover {
-    color: #111;
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
 }
+
 
 /* BOTÓN DERECHO */
 .nav-btn {
