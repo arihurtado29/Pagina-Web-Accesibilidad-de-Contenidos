@@ -42,9 +42,13 @@ body {
 .nav-links a {
     font-size: 19px;
     color: #6b7280;
-    text-decoration: none;
     font-weight: 400;
     transition: 0.3s;
+}
+
+.nav-links a:focus {
+    outline: 4px solid #111;
+    outline-offset: 4px;
 }
 
 .nav-links a:hover {
@@ -53,7 +57,7 @@ body {
 
 /* BOTÓN DERECHO */
 .nav-btn {
-    background: #111827;
+    background: #545555;
     color: white;
     padding: 10px 18px;
     border-radius: 999px;
@@ -180,7 +184,7 @@ body {
 .mini-title1 {
     font-size: 19px;
     letter-spacing: 4px;
-    color: #9ca3af;
+    color: #666F8A;
     margin-bottom: 20px;
 }
 
@@ -212,7 +216,7 @@ body {
 /* NÚMERO */
 .num {
     font-size: 17px;
-    color: #9ca3af;
+    color: #64717D;
     display: block;
     margin-bottom: 5px;
 }
@@ -227,7 +231,7 @@ body {
 /* TEXTO */
 .item p {
     font-size: 18px;
-    color: #6b7280;
+    color: #666E7A;
     line-height: 1.6;
 }
 
@@ -248,7 +252,7 @@ body {
 .mini-title {
     font-size: 19px;
     letter-spacing: 4px;
-    color: #9ca3af;
+    color: #64717D;
     margin-bottom: 20px;
 }
 
@@ -271,12 +275,18 @@ table {
     border-collapse: collapse;
 }
 
+caption {
+    caption-side: top;
+    margin-bottom: 16px; 
+    font-size: 14px;
+}
+
 /* HEADERS */
 thead th {
     text-align: left;
     font-size: 18px;
     letter-spacing: 2px;
-    color: #9ca3af;
+    color: #0b0b0c;
     font-weight: 400;
     padding-bottom: 15px;
     border-bottom: 1px solid #e5e7eb;
@@ -287,10 +297,17 @@ tbody tr {
     border-bottom: 1px solid #e5e7eb;
 }
 
+tbody th {
+    padding: 19px 0;
+    font-size: 16px;
+    color: #666D7A;
+    text-align: left;
+}
+
 tbody td {
     padding: 19px 0;
     font-size: 16px;
-    color: #6b7280;
+    color: #666D7A;
 }
 
 /* PRIMER COLUMNA */
@@ -302,8 +319,8 @@ tbody td {
 /* TEXTO FINAL */
 .note {
     margin-top: 20px;
-    font-size: 17px;
-    color: #9ca3af;
+    font-size: 14px;
+    color: #66727F;
 }
 
 /* REVIEWS */
@@ -344,7 +361,7 @@ tbody td {
 
 .meta {
     font-size: 18px;
-    color: #9ca3af;
+    color: #66727F;
     margin-top: 5px;
 }
 
@@ -365,7 +382,7 @@ tbody td {
 
 .stat p {
     font-size: 17px;
-    color: #9ca3af;
+    color: #64717D;
     margin-top: 5px;
 }
 
@@ -476,7 +493,7 @@ button {
 .small {
     text-align: center;
     font-size: 15px;
-    color: #6b7280;
+    color: #7A8290;
     margin-top: 15px;
 }
 
@@ -512,7 +529,7 @@ button {
 }
 
 .footer-links a {
-    color: #6b7280;
+    color: #777F8D;
     font-size: 17px;
     text-decoration: none;
     transition: 0.3s;
@@ -524,6 +541,6 @@ button {
 
 /* COPYRIGHT */
 .footer-copy {
-    color: #6b7280;
+    color: #777E8D;
     font-size: 16px;
 }
